@@ -83,8 +83,8 @@
         scanf("%d",&choice_programm);
         printf("Вводити самостійно(1) чи брати дані з таблиці(2)?(1;2): ");
         scanf("%d",&choice_input);
-        if (choice_programm==1 && choice_input==2){
-            func_x_y_table();
+        if (choice_programm==2 && choice_input==1){
+            func_loop_input();
         }
         else if(choice_programm==2 && choice_input==2){
             func_loop_table();
@@ -92,8 +92,8 @@
         else if(choice_programm==1 && choice_input==1){
             func_x_y_input();
         }
-        else if(choice_programm==2 && choice_input==1){
-            func_loop_input();
+        else if(choice_programm==1 && choice_input==2){
+            func_x_y_table();
         }
         else{
             printf("\nВи щось неправильно ввели, спробуйте знову");
