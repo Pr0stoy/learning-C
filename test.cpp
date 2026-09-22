@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello world!";
+    int x = 20;
+    int i = sizeof(x);
+    std::cout << "Hello world!"<< "\n" << x << "\n" << i;
     return 0;
 }
