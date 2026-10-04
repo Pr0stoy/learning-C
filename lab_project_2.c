@@ -25,7 +25,7 @@ int main(){
     a = x/2.0f;
     while(fabs(a)>=eps){
         sum += a;
-        R = x*((float)(n+1)/(float)(n+2));
+        R = x*((float)(n+1.0f)/(float)(n+2.0f));
         a *= R;
         n++;
     }
